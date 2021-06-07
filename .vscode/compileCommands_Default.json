@@ -1,0 +1,87 @@
+[
+	{
+		"file": "/Users/james/Downloads/UnrealProjects/Toon Tanks/Source/ToonTanks/Actors/ProjectileBase.cpp",
+		"command": "cl.exe @\"/Users/james/Downloads/UnrealProjects/Toon Tanks/.vscode/compileCommands_Default/ToonTanks.171.rsp\"",
+		"directory": "/Users/Shared/EpicGames/UE_4.26/Engine/Source"
+	},
+	{
+		"file": "/Users/james/Downloads/UnrealProjects/Toon Tanks/Source/ToonTanks/Actors/ProjectileBase.h",
+		"command": "cl.exe @\"/Users/james/Downloads/UnrealProjects/Toon Tanks/.vscode/compileCommands_Default/ToonTanks.171.rsp\"",
+		"directory": "/Users/Shared/EpicGames/UE_4.26/Engine/Source"
+	},
+	{
+		"file": "/Users/james/Downloads/UnrealProjects/Toon Tanks/Source/ToonTanks/Components/HealthComponent.cpp",
+		"command": "cl.exe @\"/Users/james/Downloads/UnrealProjects/Toon Tanks/.vscode/compileCommands_Default/ToonTanks.171.rsp\"",
+		"directory": "/Users/Shared/EpicGames/UE_4.26/Engine/Source"
+	},
+	{
+		"file": "/Users/james/Downloads/UnrealProjects/Toon Tanks/Source/ToonTanks/Components/HealthComponent.h",
+		"command": "cl.exe @\"/Users/james/Downloads/UnrealProjects/Toon Tanks/.vscode/compileCommands_Default/ToonTanks.171.rsp\"",
+		"directory": "/Users/Shared/EpicGames/UE_4.26/Engine/Source"
+	},
+	{
+		"file": "/Users/james/Downloads/UnrealProjects/Toon Tanks/Source/ToonTanks/GameModes/TankGameModeBase.cpp",
+		"command": "cl.exe @\"/Users/james/Downloads/UnrealProjects/Toon Tanks/.vscode/compileCommands_Default/ToonTanks.171.rsp\"",
+		"directory": "/Users/Shared/EpicGames/UE_4.26/Engine/Source"
+	},
+	{
+		"file": "/Users/james/Downloads/UnrealProjects/Toon Tanks/Source/ToonTanks/GameModes/TankGameModeBase.h",
+		"command": "cl.exe @\"/Users/james/Downloads/UnrealProjects/Toon Tanks/.vscode/compileCommands_Default/ToonTanks.171.rsp\"",
+		"directory": "/Users/Shared/EpicGames/UE_4.26/Engine/Source"
+	},
+	{
+		"file": "/Users/james/Downloads/UnrealProjects/Toon Tanks/Source/ToonTanks/Pawns/PawnBase.cpp",
+		"command": "cl.exe @\"/Users/james/Downloads/UnrealProjects/Toon Tanks/.vscode/compileCommands_Default/ToonTanks.171.rsp\"",
+		"directory": "/Users/Shared/EpicGames/UE_4.26/Engine/Source"
+	},
+	{
+		"file": "/Users/james/Downloads/UnrealProjects/Toon Tanks/Source/ToonTanks/Pawns/PawnBase.h",
+		"command": "cl.exe @\"/Users/james/Downloads/UnrealProjects/Toon Tanks/.vscode/compileCommands_Default/ToonTanks.171.rsp\"",
+		"directory": "/Users/Shared/EpicGames/UE_4.26/Engine/Source"
+	},
+	{
+		"file": "/Users/james/Downloads/UnrealProjects/Toon Tanks/Source/ToonTanks/Pawns/PawnTank.cpp",
+		"command": "cl.exe @\"/Users/james/Downloads/UnrealProjects/Toon Tanks/.vscode/compileCommands_Default/ToonTanks.171.rsp\"",
+		"directory": "/Users/Shared/EpicGames/UE_4.26/Engine/Source"
+	},
+	{
+		"file": "/Users/james/Downloads/UnrealProjects/Toon Tanks/Source/ToonTanks/Pawns/PawnTank.h",
+		"command": "cl.exe @\"/Users/james/Downloads/UnrealProjects/Toon Tanks/.vscode/compileCommands_Default/ToonTanks.171.rsp\"",
+		"directory": "/Users/Shared/EpicGames/UE_4.26/Engine/Source"
+	},
+	{
+		"file": "/Users/james/Downloads/UnrealProjects/Toon Tanks/Source/ToonTanks/Pawns/PawnTurret.cpp",
+		"command": "cl.exe @\"/Users/james/Downloads/UnrealProjects/Toon Tanks/.vscode/compileCommands_Default/ToonTanks.171.rsp\"",
+		"directory": "/Users/Shared/EpicGames/UE_4.26/Engine/Source"
+	},
+	{
+		"file": "/Users/james/Downloads/UnrealProjects/Toon Tanks/Source/ToonTanks/Pawns/PawnTurret.h",
+		"command": "cl.exe @\"/Users/james/Downloads/UnrealProjects/Toon Tanks/.vscode/compileCommands_Default/ToonTanks.171.rsp\"",
+		"directory": "/Users/Shared/EpicGames/UE_4.26/Engine/Source"
+	},
+	{
+		"file": "/Users/james/Downloads/UnrealProjects/Toon Tanks/Source/ToonTanks/PlayerControllers/PlayerControllerBase.cpp",
+		"command": "cl.exe @\"/Users/james/Downloads/UnrealProjects/Toon Tanks/.vscode/compileCommands_Default/ToonTanks.171.rsp\"",
+		"directory": "/Users/Shared/EpicGames/UE_4.26/Engine/Source"
+	},
+	{
+		"file": "/Users/james/Downloads/UnrealProjects/Toon Tanks/Source/ToonTanks/PlayerControllers/PlayerControllerBase.h",
+		"command": "cl.exe @\"/Users/james/Downloads/UnrealProjects/Toon Tanks/.vscode/compileCommands_Default/ToonTanks.171.rsp\"",
+		"directory": "/Users/Shared/EpicGames/UE_4.26/Engine/Source"
+	},
+	{
+		"file": "/Users/james/Downloads/UnrealProjects/Toon Tanks/Source/ToonTanks/ToonTanks.Build.cs",
+		"command": "cl.exe @\"/Users/james/Downloads/UnrealProjects/Toon Tanks/.vscode/compileCommands_Default/ToonTanks.171.rsp\"",
+		"directory": "/Users/Shared/EpicGames/UE_4.26/Engine/Source"
+	},
+	{
+		"file": "/Users/james/Downloads/UnrealProjects/Toon Tanks/Source/ToonTanks/ToonTanks.cpp",
+		"command": "cl.exe @\"/Users/james/Downloads/UnrealProjects/Toon Tanks/.vscode/compileCommands_Default/ToonTanks.171.rsp\"",
+		"directory": "/Users/Shared/EpicGames/UE_4.26/Engine/Source"
+	},
+	{
+		"file": "/Users/james/Downloads/UnrealProjects/Toon Tanks/Source/ToonTanks/ToonTanks.h",
+		"command": "cl.exe @\"/Users/james/Downloads/UnrealProjects/Toon Tanks/.vscode/compileCommands_Default/ToonTanks.171.rsp\"",
+		"directory": "/Users/Shared/EpicGames/UE_4.26/Engine/Source"
+	}
+]
