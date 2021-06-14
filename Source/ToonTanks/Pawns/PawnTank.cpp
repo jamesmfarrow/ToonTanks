@@ -24,12 +24,12 @@ void APawnTank::BeginPlay()
 	Super::BeginPlay();
 	
     PlayerControllerRef = Cast<APlayerController>(GetController());
+    CurrentYaw = TurretMesh->GetOwner()->GetActorRotation();
 }
 
 void APawnTank::HandleDestruction() 
 {
     Super::HandleDestruction();
-    // TODO Hide player. Create function to handle this
     bIsPlayerAlive = false;
     SetActorHiddenInGame(true);
     SetActorTickEnabled(false);
@@ -45,13 +45,31 @@ void APawnTank::Tick(float DeltaTime)
     if(PlayerControllerRef)
     {
         FHitResult TraceResultHit;
-
         PlayerControllerRef->GetHitResultUnderCursor(ECC_Visibility, false, TraceResultHit);
         FVector HitLocation{TraceResultHit.ImpactPoint};
-
         RotateTurret(HitLocation);
+
+
+        float X = InputComponent->GetAxisValue("ControllerX");
+        float Y = InputComponent->GetAxisValue("ControllerY");
+
+        if(X < 0 || X > 0) { TempX = X; }
+        if(Y < 0 || Y > 0) { TempY = Y; }
+        
+
+        UE_LOG(LogTemp, Warning, TEXT("X$ value: %f"), TempX);
+        UE_LOG(LogTemp, Warning, TEXT("Y$ value: %f"), TempY);
+
+
+        FVector Direction = GetActorForwardVector() * -TempY;
+        Direction += GetActorRightVector() * TempX;
+        TargetYaw = Direction.Rotation();
+        CurrentYaw = FMath::Lerp(CurrentYaw, TargetYaw, .02f);
+        //TurretMesh->SetWorldRotation(Direction.Rotation());
+        TurretMesh->SetWorldRotation(CurrentYaw);
     }
 }
+
 
 // Called to bind functionality to input
 void APawnTank::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
@@ -60,6 +78,8 @@ void APawnTank::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
     PlayerInputComponent->BindAxis("MoveForward", this, &APawnTank::CalculateMoveInput);
     PlayerInputComponent->BindAxis("Turn", this, &APawnTank::CalculateRotateInput);
     PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &APawnTank::Fire);
+    PlayerInputComponent->BindAxis("ControllerX", this, &APawnTank::ControllerX);
+    PlayerInputComponent->BindAxis("ControllerY", this, &APawnTank::ControllerY);
 }
 
 
@@ -76,6 +96,7 @@ void APawnTank::CalculateRotateInput(float Value)
     RotationDirection = FQuat(Rotation);
 }
 
+
 void APawnTank::Move() 
 {
     AddActorLocalOffset(MoveDirection, true);
@@ -85,3 +106,15 @@ void APawnTank::Rotate()
 {
     AddActorLocalRotation(RotationDirection, true);
 }
+
+void APawnTank::ControllerX(float Value) 
+{
+    //UE_LOG(LogTemp, Warning, TEXT("X value: %f"), Value);
+}
+
+void APawnTank::ControllerY(float Value) 
+{
+    //UE_LOG(LogTemp, Warning, TEXT("Y value: %f"), Value);
+}
+
+

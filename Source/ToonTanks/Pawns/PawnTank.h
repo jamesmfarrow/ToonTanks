@@ -25,6 +25,13 @@ private:
 	FVector MoveDirection;
 	FQuat RotationDirection;
 
+
+	FRotator CurrentYaw;
+	FRotator TargetYaw;
+	float TempX{0.f};
+    float TempY{0.f};
+	
+
 	APlayerController* PlayerControllerRef;
 	bool bIsPlayerAlive{true};
 
@@ -39,6 +46,9 @@ private:
 	void Move();
 	void Rotate();
 
+	void ControllerX(float Value);
+	void ControllerY(float Value);
+
 public:
 	APawnTank();
 
@@ -51,6 +61,10 @@ public:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 	virtual void HandleDestruction() override;
+
+	/*float InitialYaw{};
+	float CurrentYaw{};
+	float TargetYaw{};*/
 	
 protected:
 	// Called when the game starts or when spawned

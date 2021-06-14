@@ -7,7 +7,7 @@
                 "/System/Library/Frameworks",
                 "/Library/Frameworks"
             ],
-            "compileCommands": "/Users/james/Downloads/UnrealProjects/Toon Tanks/.vscode/compileCommands_ToonTanks.json",
+            "compileCommands": "/Users/james/Downloads/UnrealProjects/ToonTanks/.vscode/compileCommands_ToonTanks.json",
             "cStandard": "c17",
             "cppStandard": "c++17"
         },
@@ -18,7 +18,7 @@
                 "/System/Library/Frameworks",
                 "/Library/Frameworks"
             ],
-            "compileCommands": "/Users/james/Downloads/UnrealProjects/Toon Tanks/.vscode/compileCommands_Default.json",
+            "compileCommands": "/Users/james/Downloads/UnrealProjects/ToonTanks/.vscode/compileCommands_Default.json",
             "cStandard": "c17"
         }
     ],

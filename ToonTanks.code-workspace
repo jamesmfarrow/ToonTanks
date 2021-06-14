@@ -13,8 +13,8 @@
 		"typescript.tsc.autoDetect": "off",
 		"C_Cpp.default.forcedInclude": [
 			"${default}",
-			"/Users/james/Downloads/UnrealProjects/Toon Tanks/Intermediate/Build/Mac/x86_64/UE4Editor/Development/ToonTanks/Definitions.ToonTanks.h",
-			"/Users/james/Downloads/UnrealProjects/Toon Tanks/Intermediate/Build/Mac/x86_64/ToonTanksEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.h"
+			"/Users/james/Downloads/UnrealProjects/ToonTanks/Intermediate/Build/Mac/x86_64/UE4Editor/Development/ToonTanks/Definitions.ToonTanks.h",
+			"/Users/james/Downloads/UnrealProjects/ToonTanks/Intermediate/Build/Mac/x86_64/ToonTanksEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.h"
 		]
 	},
 	"extensions": {

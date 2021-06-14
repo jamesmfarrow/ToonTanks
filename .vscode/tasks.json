@@ -9,7 +9,7 @@
 				"ToonTanks",
 				"Mac",
 				"Debug",
-				"/Users/james/Downloads/UnrealProjects/Toon Tanks/ToonTanks.uproject",
+				"/Users/james/Downloads/UnrealProjects/ToonTanks/ToonTanks.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -26,7 +26,7 @@
 				"ToonTanks",
 				"Mac",
 				"Debug",
-				"/Users/james/Downloads/UnrealProjects/Toon Tanks/ToonTanks.uproject",
+				"/Users/james/Downloads/UnrealProjects/ToonTanks/ToonTanks.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -46,7 +46,7 @@
 				"ToonTanks",
 				"Mac",
 				"Debug",
-				"/Users/james/Downloads/UnrealProjects/Toon Tanks/ToonTanks.uproject",
+				"/Users/james/Downloads/UnrealProjects/ToonTanks/ToonTanks.uproject",
 				"-waitmutex",
 				"-clean"
 			],
@@ -64,7 +64,7 @@
 				"ToonTanks",
 				"Mac",
 				"DebugGame",
-				"/Users/james/Downloads/UnrealProjects/Toon Tanks/ToonTanks.uproject",
+				"/Users/james/Downloads/UnrealProjects/ToonTanks/ToonTanks.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -81,7 +81,7 @@
 				"ToonTanks",
 				"Mac",
 				"DebugGame",
-				"/Users/james/Downloads/UnrealProjects/Toon Tanks/ToonTanks.uproject",
+				"/Users/james/Downloads/UnrealProjects/ToonTanks/ToonTanks.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -101,7 +101,7 @@
 				"ToonTanks",
 				"Mac",
 				"DebugGame",
-				"/Users/james/Downloads/UnrealProjects/Toon Tanks/ToonTanks.uproject",
+				"/Users/james/Downloads/UnrealProjects/ToonTanks/ToonTanks.uproject",
 				"-waitmutex",
 				"-clean"
 			],
@@ -119,7 +119,7 @@
 				"ToonTanks",
 				"Mac",
 				"Development",
-				"/Users/james/Downloads/UnrealProjects/Toon Tanks/ToonTanks.uproject",
+				"/Users/james/Downloads/UnrealProjects/ToonTanks/ToonTanks.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -136,7 +136,7 @@
 				"ToonTanks",
 				"Mac",
 				"Development",
-				"/Users/james/Downloads/UnrealProjects/Toon Tanks/ToonTanks.uproject",
+				"/Users/james/Downloads/UnrealProjects/ToonTanks/ToonTanks.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -156,7 +156,7 @@
 				"ToonTanks",
 				"Mac",
 				"Development",
-				"/Users/james/Downloads/UnrealProjects/Toon Tanks/ToonTanks.uproject",
+				"/Users/james/Downloads/UnrealProjects/ToonTanks/ToonTanks.uproject",
 				"-waitmutex",
 				"-clean"
 			],
@@ -174,7 +174,7 @@
 				"ToonTanks",
 				"Mac",
 				"Shipping",
-				"/Users/james/Downloads/UnrealProjects/Toon Tanks/ToonTanks.uproject",
+				"/Users/james/Downloads/UnrealProjects/ToonTanks/ToonTanks.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -191,7 +191,7 @@
 				"ToonTanks",
 				"Mac",
 				"Shipping",
-				"/Users/james/Downloads/UnrealProjects/Toon Tanks/ToonTanks.uproject",
+				"/Users/james/Downloads/UnrealProjects/ToonTanks/ToonTanks.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -211,7 +211,7 @@
 				"ToonTanks",
 				"Mac",
 				"Shipping",
-				"/Users/james/Downloads/UnrealProjects/Toon Tanks/ToonTanks.uproject",
+				"/Users/james/Downloads/UnrealProjects/ToonTanks/ToonTanks.uproject",
 				"-waitmutex",
 				"-clean"
 			],
@@ -229,7 +229,7 @@
 				"ToonTanks",
 				"Mac",
 				"Test",
-				"/Users/james/Downloads/UnrealProjects/Toon Tanks/ToonTanks.uproject",
+				"/Users/james/Downloads/UnrealProjects/ToonTanks/ToonTanks.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -246,7 +246,7 @@
 				"ToonTanks",
 				"Mac",
 				"Test",
-				"/Users/james/Downloads/UnrealProjects/Toon Tanks/ToonTanks.uproject",
+				"/Users/james/Downloads/UnrealProjects/ToonTanks/ToonTanks.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -266,282 +266,7 @@
 				"ToonTanks",
 				"Mac",
 				"Test",
-				"/Users/james/Downloads/UnrealProjects/Toon Tanks/ToonTanks.uproject",
-				"-waitmutex",
-				"-clean"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "/Users/Shared/EpicGames/UE_4.26"
-			}
-		},
-		{
-			"label": "ToonTanks IOS Debug Build",
-			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
-			"args": [
-				"ToonTanks",
-				"IOS",
-				"Debug",
-				"/Users/james/Downloads/UnrealProjects/Toon Tanks/ToonTanks.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "/Users/Shared/EpicGames/UE_4.26"
-			}
-		},
-		{
-			"label": "ToonTanks IOS Debug Rebuild",
-			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
-			"args": [
-				"ToonTanks",
-				"IOS",
-				"Debug",
-				"/Users/james/Downloads/UnrealProjects/Toon Tanks/ToonTanks.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"dependsOn": [
-				"ToonTanks IOS Debug Clean"
-			],
-			"type": "shell",
-			"options": {
-				"cwd": "/Users/Shared/EpicGames/UE_4.26"
-			}
-		},
-		{
-			"label": "ToonTanks IOS Debug Clean",
-			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
-			"args": [
-				"ToonTanks",
-				"IOS",
-				"Debug",
-				"/Users/james/Downloads/UnrealProjects/Toon Tanks/ToonTanks.uproject",
-				"-waitmutex",
-				"-clean"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "/Users/Shared/EpicGames/UE_4.26"
-			}
-		},
-		{
-			"label": "ToonTanks IOS DebugGame Build",
-			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
-			"args": [
-				"ToonTanks",
-				"IOS",
-				"DebugGame",
-				"/Users/james/Downloads/UnrealProjects/Toon Tanks/ToonTanks.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "/Users/Shared/EpicGames/UE_4.26"
-			}
-		},
-		{
-			"label": "ToonTanks IOS DebugGame Rebuild",
-			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
-			"args": [
-				"ToonTanks",
-				"IOS",
-				"DebugGame",
-				"/Users/james/Downloads/UnrealProjects/Toon Tanks/ToonTanks.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"dependsOn": [
-				"ToonTanks IOS DebugGame Clean"
-			],
-			"type": "shell",
-			"options": {
-				"cwd": "/Users/Shared/EpicGames/UE_4.26"
-			}
-		},
-		{
-			"label": "ToonTanks IOS DebugGame Clean",
-			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
-			"args": [
-				"ToonTanks",
-				"IOS",
-				"DebugGame",
-				"/Users/james/Downloads/UnrealProjects/Toon Tanks/ToonTanks.uproject",
-				"-waitmutex",
-				"-clean"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "/Users/Shared/EpicGames/UE_4.26"
-			}
-		},
-		{
-			"label": "ToonTanks IOS Development Build",
-			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
-			"args": [
-				"ToonTanks",
-				"IOS",
-				"Development",
-				"/Users/james/Downloads/UnrealProjects/Toon Tanks/ToonTanks.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "/Users/Shared/EpicGames/UE_4.26"
-			}
-		},
-		{
-			"label": "ToonTanks IOS Development Rebuild",
-			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
-			"args": [
-				"ToonTanks",
-				"IOS",
-				"Development",
-				"/Users/james/Downloads/UnrealProjects/Toon Tanks/ToonTanks.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"dependsOn": [
-				"ToonTanks IOS Development Clean"
-			],
-			"type": "shell",
-			"options": {
-				"cwd": "/Users/Shared/EpicGames/UE_4.26"
-			}
-		},
-		{
-			"label": "ToonTanks IOS Development Clean",
-			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
-			"args": [
-				"ToonTanks",
-				"IOS",
-				"Development",
-				"/Users/james/Downloads/UnrealProjects/Toon Tanks/ToonTanks.uproject",
-				"-waitmutex",
-				"-clean"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "/Users/Shared/EpicGames/UE_4.26"
-			}
-		},
-		{
-			"label": "ToonTanks IOS Shipping Build",
-			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
-			"args": [
-				"ToonTanks",
-				"IOS",
-				"Shipping",
-				"/Users/james/Downloads/UnrealProjects/Toon Tanks/ToonTanks.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "/Users/Shared/EpicGames/UE_4.26"
-			}
-		},
-		{
-			"label": "ToonTanks IOS Shipping Rebuild",
-			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
-			"args": [
-				"ToonTanks",
-				"IOS",
-				"Shipping",
-				"/Users/james/Downloads/UnrealProjects/Toon Tanks/ToonTanks.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"dependsOn": [
-				"ToonTanks IOS Shipping Clean"
-			],
-			"type": "shell",
-			"options": {
-				"cwd": "/Users/Shared/EpicGames/UE_4.26"
-			}
-		},
-		{
-			"label": "ToonTanks IOS Shipping Clean",
-			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
-			"args": [
-				"ToonTanks",
-				"IOS",
-				"Shipping",
-				"/Users/james/Downloads/UnrealProjects/Toon Tanks/ToonTanks.uproject",
-				"-waitmutex",
-				"-clean"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "/Users/Shared/EpicGames/UE_4.26"
-			}
-		},
-		{
-			"label": "ToonTanks IOS Test Build",
-			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
-			"args": [
-				"ToonTanks",
-				"IOS",
-				"Test",
-				"/Users/james/Downloads/UnrealProjects/Toon Tanks/ToonTanks.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "/Users/Shared/EpicGames/UE_4.26"
-			}
-		},
-		{
-			"label": "ToonTanks IOS Test Rebuild",
-			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
-			"args": [
-				"ToonTanks",
-				"IOS",
-				"Test",
-				"/Users/james/Downloads/UnrealProjects/Toon Tanks/ToonTanks.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"dependsOn": [
-				"ToonTanks IOS Test Clean"
-			],
-			"type": "shell",
-			"options": {
-				"cwd": "/Users/Shared/EpicGames/UE_4.26"
-			}
-		},
-		{
-			"label": "ToonTanks IOS Test Clean",
-			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
-			"args": [
-				"ToonTanks",
-				"IOS",
-				"Test",
-				"/Users/james/Downloads/UnrealProjects/Toon Tanks/ToonTanks.uproject",
+				"/Users/james/Downloads/UnrealProjects/ToonTanks/ToonTanks.uproject",
 				"-waitmutex",
 				"-clean"
 			],
@@ -559,7 +284,7 @@
 				"ToonTanksEditor",
 				"Mac",
 				"Debug",
-				"/Users/james/Downloads/UnrealProjects/Toon Tanks/ToonTanks.uproject",
+				"/Users/james/Downloads/UnrealProjects/ToonTanks/ToonTanks.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -576,7 +301,7 @@
 				"ToonTanksEditor",
 				"Mac",
 				"Debug",
-				"/Users/james/Downloads/UnrealProjects/Toon Tanks/ToonTanks.uproject",
+				"/Users/james/Downloads/UnrealProjects/ToonTanks/ToonTanks.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -596,7 +321,7 @@
 				"ToonTanksEditor",
 				"Mac",
 				"Debug",
-				"/Users/james/Downloads/UnrealProjects/Toon Tanks/ToonTanks.uproject",
+				"/Users/james/Downloads/UnrealProjects/ToonTanks/ToonTanks.uproject",
 				"-waitmutex",
 				"-clean"
 			],
@@ -614,7 +339,7 @@
 				"ToonTanksEditor",
 				"Mac",
 				"DebugGame",
-				"/Users/james/Downloads/UnrealProjects/Toon Tanks/ToonTanks.uproject",
+				"/Users/james/Downloads/UnrealProjects/ToonTanks/ToonTanks.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -631,7 +356,7 @@
 				"ToonTanksEditor",
 				"Mac",
 				"DebugGame",
-				"/Users/james/Downloads/UnrealProjects/Toon Tanks/ToonTanks.uproject",
+				"/Users/james/Downloads/UnrealProjects/ToonTanks/ToonTanks.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -651,7 +376,7 @@
 				"ToonTanksEditor",
 				"Mac",
 				"DebugGame",
-				"/Users/james/Downloads/UnrealProjects/Toon Tanks/ToonTanks.uproject",
+				"/Users/james/Downloads/UnrealProjects/ToonTanks/ToonTanks.uproject",
 				"-waitmutex",
 				"-clean"
 			],
@@ -669,7 +394,7 @@
 				"ToonTanksEditor",
 				"Mac",
 				"Development",
-				"/Users/james/Downloads/UnrealProjects/Toon Tanks/ToonTanks.uproject",
+				"/Users/james/Downloads/UnrealProjects/ToonTanks/ToonTanks.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -686,7 +411,7 @@
 				"ToonTanksEditor",
 				"Mac",
 				"Development",
-				"/Users/james/Downloads/UnrealProjects/Toon Tanks/ToonTanks.uproject",
+				"/Users/james/Downloads/UnrealProjects/ToonTanks/ToonTanks.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -706,7 +431,7 @@
 				"ToonTanksEditor",
 				"Mac",
 				"Development",
-				"/Users/james/Downloads/UnrealProjects/Toon Tanks/ToonTanks.uproject",
+				"/Users/james/Downloads/UnrealProjects/ToonTanks/ToonTanks.uproject",
 				"-waitmutex",
 				"-clean"
 			],
